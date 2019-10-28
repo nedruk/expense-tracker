@@ -23,7 +23,7 @@
         "alwaysOn": {
             "value": false
         },
-        "storageAccountName_fa": {
+        "storageAccountName": {
             "value": "expensetrackerfa"
         },
         "storageAccountName_appdata": {

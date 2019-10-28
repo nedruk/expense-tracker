@@ -23,7 +23,7 @@
         "alwaysOn": {
             "type": "bool"
         },
-        "storageAccountName_fa": {
+        "storageAccountName": {
             "type": "string"
         },
         "storageAccountName_appdata": {
@@ -107,7 +107,7 @@
         {
             "apiVersion": "2019-06-01",
             "type": "Microsoft.Storage/storageAccounts",
-            "name": "[parameters('storageAccountName_fa')]",
+            "name": "[parameters('storageAccountName')]",
             "location": "[parameters('location')]",
             "sku": {
                 "name": "Standard_LRS"
