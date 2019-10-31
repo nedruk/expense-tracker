@@ -1,0 +1,26 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get"
+      ]
+    }, 
+    {
+      "direction": "in",
+      "type": "table",
+      "name": "transactions",
+      "tableName": "transactions",
+      "connection": "expensetrackerappdata_STORAGE"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    }
+  ]
+}
