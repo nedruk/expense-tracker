@@ -13,6 +13,6 @@ def main(req: func.HttpRequest, resp: func.Out[func.HttpResponse]):
     table_dict['PartitionKey']=date.strftime('%Y-%m')
     table_dict['RowKey']=row_key_uuid
     table_json = json.dumps(table_dict)
-    http_resp = func.HttpResponse(status_code=200, body=table_json)
+    http_resp = func.HttpResponse(status_code=200,headers={'Content-Type': 'application/json'}, body=table_json)
     resp.set(http_resp)
     return table_json
