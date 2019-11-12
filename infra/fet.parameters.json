@@ -125,26 +125,20 @@
     "clientIpRuleName": {
       "value": "ClientIp-2019-11-12_22-55-11"
     },
-    "subscriptionId": {
-      "value": "fe96fd4c-ba5c-406d-929f-ef2d728a9839"
-    },
     "faname": {
-      "value": "expense-tracker-fa"
+      "value": "fetfa01"
     },
     "hostingEnvironment": {
       "value": ""
     },
     "hostingPlanName": {
-      "value": "ASP-expensetrackerrg-ab52"
-    },
-    "serverFarmResourceGroup": {
-      "value": "expense-tracker-rg"
+      "value": "ASP-expensetrackerrg-ab54"
     },
     "alwaysOn": {
       "value": false
     },
     "storageAccountName": {
-      "value": "fetfa01"
+      "value": "fetfasa01"
     },
     "storageAccountName_appdata": {
       "value": "fetappdata01"
